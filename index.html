@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Olympics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-world">
+        <!-- Player -->
+        <div id="player"></div>
+
+        <!-- Mini-Game Areas -->
+        <div class="mini-game-area" style="top: 100px; left: 100px;" data-game="archery">Archery</div>
+        <div class="mini-game-area" style="top: 100px; left: 300px;" data-game="running">Running Race</div>
+        <div class="mini-game-area" style="top: 100px; left: 500px;" data-game="swimming">Swimming</div>
+        <div class="mini-game-area" style="top: 300px; left: 100px;" data-game="obstacle">Obstacle Course</div>
+        <div class="mini-game-area" style="top: 300px; left: 300px;" data-game="memory">Memory Game</div>
+        <div class="mini-game-area" style="top: 300px; left: 500px;" data-game="shooting">Shooting Gallery</div>
+    </div>
+
+    <!-- Mini-Game Screens -->
+    <div id="mini-game-screen" style="display: none;">
+        <!-- Mini-Game Banner -->
+        <div id="mini-game-banner"></div>
+
+        <!-- Exit Button -->
+        <button id="exit-button">Exit</button>
+
+        <!-- Archery Game -->
+        <div id="archery-game" class="mini-game"></div>
+
+        <!-- Running Race -->
+        <div id="running-game" class="mini-game"></div>
+
+        <!-- Swimming -->
+        <div id="swimming-game" class="mini-game"></div>
+
+        <!-- Obstacle Course -->
+        <div id="obstacle-game" class="mini-game"></div>
+
+        <!-- Memory Game -->
+        <div id="memory-game" class="mini-game"></div>
+
+        <!-- Shooting Gallery -->
+        <div id="shooting-game" class="mini-game"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
